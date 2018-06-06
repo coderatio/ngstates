@@ -47,7 +47,7 @@ $ngStates->getStates();
 
 ```php
 // Get State
-$ngStates->getState(string|nt $stateNameOrId);
+$ngStates->getState(string|int $stateNameOrId);
 
 // e.g
 $ngStates->getState(26); 
