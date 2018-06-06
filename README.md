@@ -223,4 +223,4 @@ $ngStates->deleteStateLocal(38, 1); // Will delete local government with the ID 
 To contribute, kindly fork the repo and send a pull request or find me on <a href="https://twitter.com/josiahoyahaya">Twitter</a>.
 
 ## Licence
-This porject is licenced under MIT License. Read through the <a href="https://github.com/coderatio/ngstates/blob/master/LICENSE">license here</a>.
+This project is licenced under MIT License. Read through the <a href="https://github.com/coderatio/ngstates/blob/master/LICENSE">license here</a>.
