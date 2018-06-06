@@ -1,0 +1,27 @@
+{
+    "name": "coderatio/ngstatesdb",
+    "description": "A stand-alone database of Nigeria states and local government manager written for php developers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josiah Ovye Yahaya",
+            "email": "josiahoyahaya@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Coderatio\\NGStates\\NGStates\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    }
+}
