@@ -71,7 +71,7 @@ class NGStates
     }
 
     /**
-     * Get a state by ID
+     * Get a state by Name or ID
      *
      * @param mixed $stateNameOrId
      * @return mixed|null
@@ -108,6 +108,12 @@ class NGStates
         return null;
     }
 
+    /**
+    * Get state by ID
+    * 
+    * @param integer $state Is
+    * @return object|null
+    */
     public function getStateById($stateId)
     {
         if ($this->getStates()) {
@@ -221,9 +227,10 @@ class NGStates
                         }
                     }
                 }
-            }
+            } else {
 
-            return "Local government data must be array and multi-dimensional.";
+               return "Local government data must be array and multi-dimensional.";
+            }
 
         }
 
