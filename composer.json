@@ -1,5 +1,5 @@
 {
-    "name": "coderatio/ngstatesdb",
+    "name": "coderatio/ngstates",
     "description": "A stand-alone database of Nigeria states and local government manager written for php developers",
     "type": "library",
     "license": "MIT",
