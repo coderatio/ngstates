@@ -190,7 +190,7 @@ $ngStates->updateStateLocals(38, [
 
 ```php
 // Update state local
-$ngStates->updateStateLocal(string|int stateNameOrId, array $localData);
+$ngStates->updateStateLocal(string|int $stateNameOrId, array $localData);
 
 // e.g
 $ngStates->updateStateLocal(38, [
@@ -212,7 +212,7 @@ $ngStates->deleteState(38);
 
 ```php
 // Delete state local government
-$ngStates->deleteStateLocals(string|int $stateNameOrId, int $stateLocalId);
+$ngStates->deleteStateLocal(string|int $stateNameOrId, int $stateLocalId);
 
 // e.g
 $ngStates->deleteStateLocal(38, 1); // Will delete local government with the ID 1.
