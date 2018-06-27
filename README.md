@@ -25,7 +25,8 @@ A stand-alone database of Nigeria states and local government manager written fo
 require 'vendor/autoload.php'; 
 
 // If you didn't download the library via composer.
-require 'src/NGStates.php';
+require 'pathto/src/helpers.php';
+require 'pathto/src/NGStates.php';
 
 $ngStates = new Coderatio\NGStates\NGStates(); 
 /* 
